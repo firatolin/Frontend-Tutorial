@@ -21,3 +21,10 @@ console.log("Is '5' equal to 5 using === operator?", strictComparision);
 console.log("The strict equality operator (===) checks both value and type.");
 console.log("The loose equality operator (==) checks only value.");
 console.log("This is a simple demonstration of JavaScript code execution.");
+
+let userPremium = true; // Change this to false to test the other condition
+if (userPremium) {
+  console.log("Welcome, premium user!");
+} else {
+  console.log("Welcome, regular user!");
+}
