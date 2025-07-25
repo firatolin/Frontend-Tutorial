@@ -3,3 +3,13 @@ console.log("This is a simple Node.js application.");
 console.log("It prints messages to the console.");
 console.log("You can run this application using Node.js.");
 console.log("Make sure you have Node.js installed on your machine.");
+console.log("Firatolin Tefera"[0] + " is the first letter of my name.");
+
+let USD = 2000;
+let ETB = USD * 130;
+console.log(`If you have ${USD} USD, you can convert it to ${ETB} ETB.`);
+
+console.log("The current exchange rate is 1 USD = 130 ETB.");
+
+5 > 6;
+console.log("5 is greater than 6:", 5 > 6);
