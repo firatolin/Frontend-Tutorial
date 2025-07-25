@@ -22,9 +22,13 @@ console.log("The strict equality operator (===) checks both value and type.");
 console.log("The loose equality operator (==) checks only value.");
 console.log("This is a simple demonstration of JavaScript code execution.");
 
-let userPremium = true; // Change this to false to test the other condition
-if (userPremium) {
+let userPremium = false; // Change this to false to test the other condition
+let signedIn = false; // Change this to false to test the other condition
+
+if (userPremium === true) {
   console.log("Welcome, premium user!");
+} else if (signedIn === true) {
+  console.log("Welcome, signed-in user!");
 } else {
   console.log("Welcome, regular user!");
 }
