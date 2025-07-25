@@ -28,3 +28,6 @@ if (userPremium) {
 } else {
   console.log("Welcome, regular user!");
 }
+console.log(
+  "This code demonstrates a simple conditional statement based on user type."
+);
