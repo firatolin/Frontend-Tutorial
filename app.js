@@ -13,3 +13,11 @@ console.log("The current exchange rate is 1 USD = 130 ETB.");
 
 5 > 6;
 console.log("5 is greater than 6:", 5 > 6);
+
+let comparision = "5" == 5;
+console.log("Is '5' equal to 5 using == operator?", comparision);
+let strictComparision = "5" === 5;
+console.log("Is '5' equal to 5 using === operator?", strictComparision);
+console.log("The strict equality operator (===) checks both value and type.");
+console.log("The loose equality operator (==) checks only value.");
+console.log("This is a simple demonstration of JavaScript code execution.");
