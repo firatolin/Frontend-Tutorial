@@ -44,3 +44,6 @@ console.log(
 );
 let userHobbies = ["reading", "coding", "traveling"];
 console.log("User Hobbies:", userHobbies);
+console.log(
+  "This code demonstrates how to create and use an array in JavaScript."
+);
