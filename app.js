@@ -35,3 +35,7 @@ if (userPremium === true) {
 console.log(
   "This code demonstrates a simple conditional statement based on user type."
 );
+let userName = "Firatolin Tefera";
+let userAge = 25;
+console.log(`User Name: ${userName}`);
+console.log(`User Age: ${userAge}`);
