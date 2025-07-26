@@ -42,3 +42,5 @@ console.log(`User Age: ${userAge}`);
 console.log(
   "This code demonstrates how to declare and use variables in JavaScript."
 );
+let userHobbies = ["reading", "coding", "traveling"];
+console.log("User Hobbies:", userHobbies);
