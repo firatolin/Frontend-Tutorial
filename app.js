@@ -53,3 +53,6 @@ let userProfile = {
   hobbies: ["reading", "coding", "traveling"],
 };
 console.log("User Profile:", userProfile);
+console.log(
+  "This code demonstrates how to create and use an object in JavaScript."
+);
