@@ -39,3 +39,6 @@ let userName = "Firatolin Tefera";
 let userAge = 25;
 console.log(`User Name: ${userName}`);
 console.log(`User Age: ${userAge}`);
+console.log(
+  "This code demonstrates how to declare and use variables in JavaScript."
+);
