@@ -47,3 +47,9 @@ console.log("User Hobbies:", userHobbies);
 console.log(
   "This code demonstrates how to create and use an array in JavaScript."
 );
+let userProfile = {
+  name: "Firatolin Tefera",
+  age: 25,
+  hobbies: ["reading", "coding", "traveling"],
+};
+console.log("User Profile:", userProfile);
