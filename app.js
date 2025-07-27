@@ -86,3 +86,11 @@ console.log("User Experience:", userExperience);
 console.log(
   "This code demonstrates how to create and use an array of objects for user experience in JavaScript."
 );
+let userAchievements = {
+  awards: ["Best Developer 2022", "Employee of the Month"],
+  certifications: ["JavaScript Certification", "Python Certification"],
+};
+console.log("User Achievements:", userAchievements);
+console.log(
+  "This code demonstrates how to create and use an object for user achievements in JavaScript."
+);
