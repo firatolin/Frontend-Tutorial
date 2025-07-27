@@ -61,3 +61,12 @@ console.log("User Skills:", userSkills);
 console.log(
   "This code demonstrates how to create and use an array of skills in JavaScript."
 );
+let userEducation = {
+  degree: "Bachelor's in Computer Science",
+  university: "Arsi University",
+  graduationYear: 2027,
+};
+console.log("User Education:", userEducation);
+console.log(
+  "This code demonstrates how to create and use an object for user education in JavaScript."
+);
