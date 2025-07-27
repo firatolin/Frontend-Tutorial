@@ -70,3 +70,19 @@ console.log("User Education:", userEducation);
 console.log(
   "This code demonstrates how to create and use an object for user education in JavaScript."
 );
+let userExperience = [
+  {
+    company: "Tech Solutions",
+    position: "Software Engineer",
+    duration: "2 years",
+  },
+  {
+    company: "Web Innovations",
+    position: "Frontend Developer",
+    duration: "1 year",
+  },
+];
+console.log("User Experience:", userExperience);
+console.log(
+  "This code demonstrates how to create and use an array of objects for user experience in JavaScript."
+);
