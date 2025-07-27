@@ -49,10 +49,15 @@ console.log(
 );
 let userProfile = {
   name: "Firatolin Tefera",
-  age: 25,
+  age: 20,
   hobbies: ["reading", "coding", "traveling"],
 };
 console.log("User Profile:", userProfile);
 console.log(
   "This code demonstrates how to create and use an object in JavaScript."
+);
+let userSkills = ["JavaScript", "Python", "Java"];
+console.log("User Skills:", userSkills);
+console.log(
+  "This code demonstrates how to create and use an array of skills in JavaScript."
 );
