@@ -106,3 +106,11 @@ console.log(greeting);
 const currentYear = new Date().getFullYear();
 console.log(`Current Year: ${currentYear}`);
 console.log("This code demonstrates how to use constants in JavaScript.");
+
+let numbers = [1, 2, 3, 4, 5];
+console.log("Numbers Array:", numbers);
+numbers.push(6);
+console.log("Updated Numbers Array:", numbers);
+console.log(
+  "This code demonstrates how to create and manipulate arrays in JavaScript."
+);
