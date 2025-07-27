@@ -114,3 +114,9 @@ console.log("Updated Numbers Array:", numbers);
 console.log(
   "This code demonstrates how to create and manipulate arrays in JavaScript."
 );
+
+let sum = numbers.reduce((acc, num) => acc + num, 0);
+console.log("Sum of Numbers:", sum);
+console.log(
+  "This code demonstrates how to use the reduce method to calculate the sum of an array."
+);
