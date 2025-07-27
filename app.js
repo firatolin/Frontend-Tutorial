@@ -100,3 +100,9 @@ console.log(
 console.log(
   "It includes variable declarations, conditional statements, arrays, and objects."
 );
+
+const greeting = "Hello, World!";
+console.log(greeting);
+const currentYear = new Date().getFullYear();
+console.log(`Current Year: ${currentYear}`);
+console.log("This code demonstrates how to use constants in JavaScript.");
