@@ -94,3 +94,9 @@ console.log("User Achievements:", userAchievements);
 console.log(
   "This code demonstrates how to create and use an object for user achievements in JavaScript."
 );
+console.log(
+  "This code is a simple demonstration of JavaScript syntax and features."
+);
+console.log(
+  "It includes variable declarations, conditional statements, arrays, and objects."
+);
