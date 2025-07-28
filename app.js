@@ -151,3 +151,12 @@ isRaining
 console.log(
   "This code demonstrates how to use the ternary operator for conditional statements."
 );
+
+let userAgeNew = 20;
+hasId = true;
+userAgeNew >= 18 && hasId
+  ? console.log("You can vote!")
+  : console.log("You cannot vote.");
+console.log(
+  "This code demonstrates how to use the logical AND operator (&&) in a conditional statement."
+);
