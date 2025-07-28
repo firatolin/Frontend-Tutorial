@@ -198,3 +198,10 @@ while (number <= 7) {
 console.log(
   "This code demonstrates a simple while loop that prints numbers from 1 to 7."
 );
+
+for (let i = 1; i <= 5; i++) {
+  console.log("I Love Programming in JavaScript");
+}
+console.log(
+  "This code demonstrates a simple for loop that prints a message multiple times."
+);
