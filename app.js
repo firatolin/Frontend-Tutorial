@@ -120,3 +120,15 @@ console.log("Sum of Numbers:", sum);
 console.log(
   "This code demonstrates how to use the reduce method to calculate the sum of an array."
 );
+
+let age = 18;
+let hasId = true;
+
+if (age >= 18 || hasId === true) {
+  console.log("You are allowed to enter.");
+} else {
+  console.log("You are not allowed to enter.");
+}
+console.log(
+  "This code demonstrates how to use the logical OR operator (||) in a conditional statement."
+);
