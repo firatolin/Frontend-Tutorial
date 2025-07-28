@@ -143,3 +143,11 @@ if (isWeekend || isHoliday) {
 console.log(
   "This code demonstrates how to use the logical OR operator (||) in a different context."
 );
+
+let isRaining = true;
+isRaining
+  ? console.log("Take an umbrella!")
+  : console.log("Enjoy the sunshine!");
+console.log(
+  "This code demonstrates how to use the ternary operator for conditional statements."
+);
