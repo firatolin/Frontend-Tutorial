@@ -132,3 +132,14 @@ if (age >= 18 || hasId === true) {
 console.log(
   "This code demonstrates how to use the logical OR operator (||) in a conditional statement."
 );
+
+let isWeekend = true;
+let isHoliday = false;
+if (isWeekend || isHoliday) {
+  console.log("You can relax today!");
+} else {
+  console.log("You have to work today.");
+}
+console.log(
+  "This code demonstrates how to use the logical OR operator (||) in a different context."
+);
