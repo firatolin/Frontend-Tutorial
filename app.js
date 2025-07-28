@@ -180,4 +180,12 @@ while (counter < 5) {
 console.log(
   "This code demonstrates a simple while loop that increments a counter."
 );
-console.log(counter.length);
+
+let counterFor = 1;
+while (counterFor <= 5) {
+  console.log("I'm a Software Engineer");
+  counterFor = counterFor + 1;
+}
+console.log(
+  "This code demonstrates a simple while loop that prints a message and increments a counter."
+);
