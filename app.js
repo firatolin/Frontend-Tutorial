@@ -189,3 +189,12 @@ while (counterFor <= 5) {
 console.log(
   "This code demonstrates a simple while loop that prints a message and increments a counter."
 );
+
+let number = 1;
+while (number <= 7) {
+  console.log(number);
+  number++;
+}
+console.log(
+  "This code demonstrates a simple while loop that prints numbers from 1 to 7."
+);
