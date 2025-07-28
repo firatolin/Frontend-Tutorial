@@ -160,3 +160,14 @@ userAgeNew >= 18 && hasId
 console.log(
   "This code demonstrates how to use the logical AND operator (&&) in a conditional statement."
 );
+
+let isLoggedIn = true;
+hasPromocode = false;
+let str =
+  isLoggedIn && hasPromocode === true
+    ? "Please Enter the PromoCode"
+    : "You are not logged in or do not have a promo code.";
+console.log(str);
+console.log(
+  "This code demonstrates how to use the logical AND operator (&&) in a different context."
+);
