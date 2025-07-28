@@ -171,3 +171,13 @@ console.log(str);
 console.log(
   "This code demonstrates how to use the logical AND operator (&&) in a different context."
 );
+
+let counter = 0;
+while (counter < 5) {
+  console.log("Counter:", counter);
+  counter++;
+}
+console.log(
+  "This code demonstrates a simple while loop that increments a counter."
+);
+console.log(counter.length);
