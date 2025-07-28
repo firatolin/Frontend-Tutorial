@@ -205,3 +205,10 @@ for (let i = 1; i <= 5; i++) {
 console.log(
   "This code demonstrates a simple for loop that prints a message multiple times."
 );
+
+for (let i = 1; i <= 7; i++) {
+  console.log(i);
+}
+console.log(
+  "This code demonstrates a simple for loop that prints numbers from 1 to 7."
+);
