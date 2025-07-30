@@ -253,5 +253,5 @@ function fibonacci(n) {
   return fibonacci(n - 1) + fibonacci(n - 2);
 }
 console.log(
-  "This code demonstrates a simple for loop that prints the Fibonacci sequence up to 10."
+  "This code demonstrates a simple for loop that prints the Fibonacci sequence 1 up to 10."
 );
