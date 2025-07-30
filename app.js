@@ -226,3 +226,10 @@ for (let i = 1; i <= 10; i++) {
 console.log(
   "This code demonstrates a simple for loop that prints the cube of numbers from 1 to 10."
 );
+
+for (let i = 1; i <= 10; i++) {
+  console.log(`Square root of ${i} is ${Math.sqrt(i)}`);
+}
+console.log(
+  "This code demonstrates a simple for loop that prints the square root of numbers from 1 to 10."
+);
