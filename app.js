@@ -219,3 +219,10 @@ for (let i = 1; i <= 10; i++) {
 console.log(
   "This code demonstrates a simple for loop that prints the square of numbers from 1 to 10."
 );
+
+for (let i = 1; i <= 10; i++) {
+  console.log(`Cube of ${i} is ${i * i * i}`);
+}
+console.log(
+  "This code demonstrates a simple for loop that prints the cube of numbers from 1 to 10."
+);
