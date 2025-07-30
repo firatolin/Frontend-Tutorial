@@ -212,3 +212,10 @@ for (let i = 1; i <= 7; i++) {
 console.log(
   "This code demonstrates a simple for loop that prints numbers from 1 to 7."
 );
+
+for (let i = 1; i <= 10; i++) {
+  console.log(`Square of ${i} is ${i * i}`);
+}
+console.log(
+  "This code demonstrates a simple for loop that prints the square of numbers from 1 to 10."
+);
