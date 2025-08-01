@@ -263,10 +263,17 @@ let b = "Development";
 
 for (let i = 1; i <= 15; i++) {
   if (i % 5 === 0) {
-    console.log(`${a} ${b}`);
+    console.log(`${i}- ${a} ${b}`);
   } else if (i % 2 === 0) {
-    console.log(b);
+    console.log(`${i}- ${b}`);
   } else {
-    console.log(a);
+    console.log(`${i}- ${a}`);
   }
+}
+
+//Exercise.
+
+let string = "ASAP Frontend";
+for (let i = 0; i < string.length; i++) {
+  console.log(string[i]);
 }
