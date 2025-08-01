@@ -288,3 +288,21 @@ function greetingUser(name) {
 greetingUser("Firatolin Tefera");
 greetingUser("Abebe Beso");
 greetingUser("Mekdes Alemayehu");
+
+//Passing 2 values.
+//Function Declaration.
+function greetingUserWithTime(name, time) {
+  console.log(`Hello, ${name}!, ${time} Welcome to our application.`);
+}
+//Function Call.
+greetingUserWithTime("Firatolin Tefera", "Good Morning!");
+greetingUserWithTime("Abebe Beso", "Good Afternoon!");
+greetingUserWithTime("Mekdes Alemayehu", "Good Evening!");
+
+function main() {
+  console.log("Hello Fira");
+  return "Hello, Fira!";
+}
+
+const message = main();
+console.log(message);
