@@ -277,3 +277,10 @@ let string = "Frontend Development";
 for (let i = 0; i < string.length; i++) {
   console.log(string[i]);
 }
+
+//Functions.
+
+function greetingUser(name) {
+  console.log(`Hello, ${name}! Welcome to our application.`);
+}
+greetingUser("Firatolin Tefera");
