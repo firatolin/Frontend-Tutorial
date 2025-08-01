@@ -286,3 +286,5 @@ function greetingUser(name) {
 }
 //Function Call.
 greetingUser("Firatolin Tefera");
+greetingUser("Abebe Beso");
+greetingUser("Mekdes Alemayehu");
