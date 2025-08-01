@@ -258,8 +258,8 @@ console.log(
 
 // Exercise.
 
-let a = "ASAP";
-let b = "Frontend";
+let a = "Frontend";
+let b = "Development";
 
 for (let i = 1; i <= 15; i++) {
   if (i % 5 === 0) {
