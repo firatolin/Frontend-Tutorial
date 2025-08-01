@@ -255,3 +255,18 @@ function fibonacci(n) {
 console.log(
   "This code demonstrates a simple for loop that prints the Fibonacci sequence 1 up to 10."
 );
+
+// Exercise.
+
+let a = "ASAP";
+let b = "Frontend";
+
+for (let i = 1; i <= 15; i++) {
+  if (i % 5 === 0) {
+    console.log(`${a} ${b}`);
+  } else if (i % 2 === 0) {
+    console.log(b);
+  } else {
+    console.log(a);
+  }
+}
