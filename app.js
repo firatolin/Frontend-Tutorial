@@ -280,7 +280,9 @@ for (let i = 0; i < string.length; i++) {
 
 //Functions.
 
+//Function Declaration.
 function greetingUser(name) {
   console.log(`Hello, ${name}! Welcome to our application.`);
 }
+//Function Call.
 greetingUser("Firatolin Tefera");
