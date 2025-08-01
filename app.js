@@ -273,7 +273,7 @@ for (let i = 1; i <= 15; i++) {
 
 //Exercise.
 
-let string = "ASAP Frontend";
+let string = "Frontend Development";
 for (let i = 0; i < string.length; i++) {
   console.log(string[i]);
 }
